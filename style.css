@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+    html{
+        font-size: 13px;
+       
+
+}
+main{
+    font-size: 1.5rem;
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+body{
+    background-color:rgba(199, 199, 199, 0.685);
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+header{
+    background-color:rgba(82, 53, 99, 0.753);
+    border:2px solid rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 900;
+    text-align: center;
+
+}
+header h1{
+    font-size: 2.5rem;
+    font-style: italic;
+    text-align: center;
+}
+
+footer{
+    background-color:rgba(82, 53, 99, 0.753);
+    border:2px solid rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+footer a{
+    font-style: normal;
+    text-decoration: underline;
+}
+
+#About img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+#About h2{
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+    font-family: Arial, sans-serif;
+}
+#About p{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: normal;
+    text-align: left;
+    font-family: georgia, serif;
+}
+
+
+.Coffee {
+    background-color:rgb(63, 89, 129);
+    padding: 10px;
+    margin: 14px;
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    box-sizing: border-box; 
+}
+ul.menu.cards {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+
+}
+#Menu h2{
+    text-decoration: underline;
+    font-style: italic;
+    text-align: left;
+}
+.Tea {
+    background-color:rgb(162, 157, 100);
+    padding: 10px;
+    margin: 14px;
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+}
+
+
+.Cakes {
+    background-color:rgb(177, 96, 119);
+    padding: 10px;
+    margin: 14px;
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+}
